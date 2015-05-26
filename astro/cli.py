@@ -14,7 +14,8 @@ def main(timestamp):
     try:
         timestamp = int(timestamp)
     except ValueError:
-        click.fail("Invalid timestamp.")
+        click.echo("Invalid timestamp.")
+        sys.exit(1)
 
     click.echo(sunsign(timestamp))
-    click.exit()
+    sys.exit(0)
