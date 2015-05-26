@@ -1,0 +1,6 @@
+# vim artifacts
+*.swp
+*.swo
+
+# python artifacts
+*.pyc
