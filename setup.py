@@ -1,12 +1,12 @@
 """
-Astro Timestamps
+Zodiac Astrological Timestamps
 """
 from setuptools import find_packages, setup
 
 dependencies = ['click']
 
 setup(
-    name='astro',
+    name='zodiac',
     version='0.1.0',
     url='https://github.com/fiono/astro',
     license='BSD',
@@ -21,7 +21,7 @@ setup(
     install_requires=dependencies,
     entry_points={
         'console_scripts': [
-            'astro = astro.cli:main',
+            'zodiac = zodiac.cli:main',
         ],
     },
     classifiers=[

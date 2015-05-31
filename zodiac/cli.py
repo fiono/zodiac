@@ -3,7 +3,7 @@ from datetime import date
 
 import click
 
-from astro import sunsign12, sunsign13
+from zodiac import sunsign12, sunsign13
 
 @click.command()
 @click.option('--with-ophiuchus', '-o', is_flag=True, help='Include Ophiuchus as a sign (deprecated).')
